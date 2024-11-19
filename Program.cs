@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<BlogDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("MainConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DevelopmentConnection"))); //MainConnection
+
 
 builder.Services.AddScoped<IMainAppService, MainAppService>();
 builder.Services.AddScoped<IMainService, MainService>();

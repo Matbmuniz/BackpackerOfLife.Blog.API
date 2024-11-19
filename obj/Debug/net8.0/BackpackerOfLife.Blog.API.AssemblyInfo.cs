@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackpackerOfLife.Blog.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98d4258e1cfd5d1a359ff60ba2b20e508b105a45")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackpackerOfLife.Blog.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackpackerOfLife.Blog.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

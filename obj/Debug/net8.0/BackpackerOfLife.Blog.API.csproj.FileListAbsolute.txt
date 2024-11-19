@@ -85,3 +85,4 @@ D:\Codes\MyBlog\BackpackerOfLife.Blog.API\obj\Debug\net8.0\refint\BackpackerOfLi
 D:\Codes\MyBlog\BackpackerOfLife.Blog.API\obj\Debug\net8.0\BackpackerOfLife.Blog.API.pdb
 D:\Codes\MyBlog\BackpackerOfLife.Blog.API\obj\Debug\net8.0\BackpackerOfLife.Blog.API.genruntimeconfig.cache
 D:\Codes\MyBlog\BackpackerOfLife.Blog.API\obj\Debug\net8.0\ref\BackpackerOfLife.Blog.API.dll
+D:\Codes\MyBlog\BackpackerOfLife.Blog.API\obj\Debug\net8.0\BackpackerOfLife.Blog.API.sourcelink.json
