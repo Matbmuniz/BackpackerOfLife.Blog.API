@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<BlogDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DevelopmentConnection"))); //MainConnection
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DevelopmentConnection"), sqlOpt => sqlOpt.EnableRetryOnFailure())); //MainConnection
 
 
 builder.Services.AddScoped<IMainAppService, MainAppService>();
